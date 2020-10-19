@@ -1,0 +1,8 @@
+node_modules
+dist
+.cache
+.ipynb_checkpoints
+.DS_Store
+*.log*
+yarn.lock
+package-lock.json

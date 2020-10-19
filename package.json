@@ -1,0 +1,19 @@
+{
+  "name": "math",
+  "version": "1.0.0",
+  "private": true,
+  "description": "适合程序员的高数入门课",
+  "homepage": "https://github.com/haozi/Math#readme",
+  "bugs": {
+    "url": "https://github.com/haozi/Math/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haozi/Math.git"
+  },
+  "license": "CC-BY-SA-4.0",
+  "author": "耗子",
+  "scripts": {
+    "docker": "open http://127.0.0.1:8520/lab && docker run -h 'Math' -it --rm -p 8520:8888 -v $PWD/docs:/notebooks -v $PWD/.cache/config:/home/ubuntu/.jupyter -v  $PWD/.cache/local:/home/ubuntu/.local haozhi/tensorflow zsh -c '. ~/.zshrc && jupyter lab --ip=0.0.0.0 --NotebookApp.token=\"\"'"
+  }
+}
