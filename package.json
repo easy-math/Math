@@ -14,6 +14,13 @@
   "license": "CC-BY-SA-4.0",
   "author": "耗子",
   "scripts": {
-    "docker": "open http://127.0.0.1:8520/lab && docker run -h 'Math' -it --rm -p 8520:8888 -v $PWD/docs:/notebooks -v $PWD/.cache/config:/home/ubuntu/.jupyter -v  $PWD/.cache/local:/home/ubuntu/.local haozhi/tensorflow zsh -c '. ~/.zshrc && jupyter lab --ip=0.0.0.0 --NotebookApp.token=\"\"'"
+    "docker": "open http://127.0.0.1:8520/lab && docker run -h 'Math' -it --rm -p 8520:8888 -v $PWD/docs:/notebooks -v $PWD/.cache/config:/home/ubuntu/.jupyter -v  $PWD/.cache/local:/home/ubuntu/.local haozhi/tensorflow zsh -c '. ~/.zshrc && jupyter lab --ip=0.0.0.0 --NotebookApp.token=\"\"'",
+    "web:build": "sh scripts/web.sh build",
+    "web:dev": "sh scripts/web.sh dev"
+  },
+  "devDependencies": {
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-comment": "^0.7.3",
+    "vuepress-plugin-mathjax": "^1.2.8"
   }
 }

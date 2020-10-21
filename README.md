@@ -14,7 +14,7 @@
 
 ### 常量
 
-* Math.E [自然常数 e](docs/E.ipynb)
+* Math.E [自然常数 e](https://math.haozi.me/E.html)
 * Math.PI 圆周率 π
 * Math.LN10 自然对数
 * Math.LN2 自然对数

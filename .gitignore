@@ -1,8 +1,10 @@
 node_modules
 dist
 .cache
+.docs-tmp
 .ipynb_checkpoints
 .DS_Store
 *.log*
+secret.json
 yarn.lock
 package-lock.json
