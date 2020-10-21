@@ -15,7 +15,7 @@
 ### 常量
 
 * Math.E [自然常数 e](https://math.haozi.me/E.html)
-* Math.PI 圆周率 π
+* Math.PI [圆周率 π](https://math.haozi.me/PI.html)
 * Math.LN10 自然对数
 * Math.LN2 自然对数
 * Math.LOG10E 以 10 为底的 E 的对数
