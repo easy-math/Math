@@ -24,6 +24,7 @@
 * Math.SQRT2 2的平方根
 
 ## 函数
+* Math.pow() [指数(幂运算)](https://math.haozi.me/pow.html)
 * Math.abs()
 * Math.acos()
 * Math.acosh()
@@ -49,7 +50,6 @@
 * Math.log2()
 * Math.max()
 * Math.min()
-* Math.pow()
 * Math.random()
 * Math.round()
 * Math.sign()
