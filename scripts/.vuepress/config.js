@@ -39,28 +39,31 @@ module.exports = {
     }]
   },
   plugins: [
-    [
-      'vuepress-plugin-mathjax', {
-        target: 'svg',
-        macros: {
-          '*': '\\times'
-        }
+    ['vuepress-plugin-mathjax', {
+      target: 'svg',
+      macros: {
+        '*': '\\times'
       }
-    ],
-    [
-      'vuepress-plugin-comment', {
-        choosen: 'gitalk',
-        options: {
-          clientID: '57f16373f90dd62b1b30',
-          clientSecret: '494142f6184aa16fa320d69b5ea09eb420e7a013',
-          repo: 'Math',
-          owner: 'haozi',
-          admin: [
-            'haozi'
-          ],
-          distractionFreeMode: false
-        }
+    }],
+    ['gitalk-maker', {
+      gitalkConfig: {
+        clientID: '57f16373f90dd62b1b30',
+        clientSecret: '494142f6184aa16fa320d69b5ea09eb420e7a013',
+        repo: 'Math',
+        owner: 'haozi',
+        admin: ['haozi'],
+        // id: location.pathname, // 无法配置默认用 location.pathname
+        distractionFreeMode: false, // Facebook-like distraction free mode
       }
-    ]
+    }],
+    ['sitemap', {
+      hostname: 'https://math.haozi.me'
+    }],
+    'vuepress-plugin-nprogress',
+    'vuepress-plugin-baidu-autopush',
+    ['vuepress-plugin-dehydrate', {
+      noSSR: '404.html',
+      noScript: []
+    }]
   ]
 }
