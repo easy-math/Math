@@ -12,7 +12,7 @@
 * 如果你有使用过 Python，应该会了解 [Jupyter](https://jupyter.org/)，可以使用 `jupyter lab docs` 启动本文档
 * 如果你不想折腾 Python 环境，可以直接使用 `npm run docker` 命令，启动已经封装好的环境（首次启动将拉取镜像）
 
-### 常量
+## 常量
 
 * Math.E [自然常数 e](https://math.haozi.me/E.html)
 * Math.PI [圆周率 π](https://math.haozi.me/PI.html)
