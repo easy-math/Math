@@ -25,7 +25,7 @@
 
 ## 函数
 * Math.pow() [指数(幂运算)](https://math.haozi.me/pow.html)
-* Math.abs()
+* Math.abs() [绝对值](https://math.haozi.me/abs.html)
 * Math.acos()
 * Math.acosh()
 * Math.asin()
