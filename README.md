@@ -24,7 +24,11 @@
 * Math.SQRT2 根号2
 
 ## 函数
-* Math.pow() [指数(幂运算)](https://math.haozi.me/pow.html)
+
+* 指数
+  * Math.pow() [指数(幂运算)](https://math.haozi.me/pow.html)
+  * Math.exp() [$e^x$](https://math.haozi.me/pow.html)
+  * Math.expm1()[$e^x - 1$](https://math.haozi.me/pow.html)
 * Math.abs() [绝对值](https://math.haozi.me/abs.html)
 * 对数
   * Math.log10() [以 10 为底的对数 $\log_{10}x$](https://math.haozi.me/log.html)
@@ -43,8 +47,6 @@
 * Math.clz32()
 * Math.cos()
 * Math.cosh()
-* Math.exp()
-* Math.expm1()
 * Math.floor()
 * Math.fround()
 * Math.hypot()
