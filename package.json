@@ -20,6 +20,7 @@
     "web:dev": "sh scripts/web.sh dev"
   },
   "devDependencies": {
+    "gitlog": "^4.0.3",
     "inquirer": "^7.3.3",
     "vuepress": "^1.7.1",
     "vuepress-plugin-baidu-autopush": "^1.0.1",
