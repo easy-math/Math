@@ -1,5 +1,32 @@
 const fs = require('fs')
 const path = require('path')
+const gitlog = require('gitlog').default
+
+const getFileLog = (filePath) => {
+  const unique = (arr) => {
+    let ret = []
+    arr.forEach(item => {
+      if (!ret.some(o => o.email === item.email)) {
+        ret.push(item)
+      }
+    })
+    return ret
+  }
+  let log = gitlog({
+    repo: __dirname + '/..',
+    file: filePath,
+    fields: ['authorName', 'authorDate', 'authorEmail']
+  })
+  const lastModified = log[0].authorDate
+  const authors = unique(log.map(item => ({
+    name: item.authorName,
+    email: item.authorEmail
+  })))
+  return {
+    lastModified,
+    authors
+  }
+}
 
 const markdownHandler = (fileData) => {
   let md = fs.readFileSync(fileData.path, 'utf8')
