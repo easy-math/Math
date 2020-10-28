@@ -177,3 +177,16 @@
 * 一元线性回归
 
 ## 解析几何
+
+// TODO
+
+## 牛顿精典力学
+
+// TODO
+
+
+## 联系我们
+
+![](https://raw.githubusercontent.com/haozi/Math/master/scripts/.vuepress/public/wechat.jpg)
+
+(如果二维码扫不开，可加微信 _ha0z1，并注明来意)
