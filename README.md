@@ -48,7 +48,7 @@
 * 取整
   * Math.floor() [下取整，也叫高斯函数](https://math.haozi.me/floor.html)
   * Math.ceil() [上取整](https://math.haozi.me/floor.html)
-  * Math.round() [MDN 中文翻译成四舍五入，但其实不准确](https://math.haozi.me/floor.html)
+  * Math.round() [中文翻译成四舍五入，但其实不准确](https://math.haozi.me/round.html)
   * Math.trunc() [截尾取整](https://math.haozi.me/trunc.html)
 * Math.acos()
 * Math.acosh()
