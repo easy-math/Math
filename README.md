@@ -26,7 +26,7 @@
 * Math.E [自然常数 e](https://math.haozi.me/E.html)
 * Math.PI [圆周率 π](https://math.haozi.me/PI.html)
 * Math.LN10 [自然对数，$\log_e10$](https://math.haozi.me/log.html)
-* Math.LN2 [自然对数，$\log_e2$](https://math.haozi.me/log.html)
+* Math.LN2 [自然对数，$\log_e2$](https://math.haozi.me/log.html)
 * Math.LOG10E [以 10 为底的 E 的对数, $\log_{10}e$](https://math.haozi.me/log.html)
 * Math.LOG2E [以 2 为底的 E 的对数, $\log_2e$](https://math.haozi.me/log.html)
 * Math.SQRT1_2 二分之一 ½ 的平方根，同时也是 2 的平方根的倒数
@@ -38,6 +38,8 @@
   * Math.pow() [指数(幂运算)](https://math.haozi.me/pow.html)
   * Math.exp() [$e^x$](https://math.haozi.me/pow.html)
   * Math.expm1()[$e^x - 1$](https://math.haozi.me/pow.html)
+* 开方
+  * Math.sqrt() [开方运算](https://math.haozi.me/sqrt.html)
 * Math.abs() [绝对值](https://math.haozi.me/abs.html)
 * 对数
   * Math.log10() [以 10 为底的对数 $\log_{10}x$](https://math.haozi.me/log.html)
