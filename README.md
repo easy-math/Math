@@ -39,7 +39,8 @@
   * Math.exp() [$e^x$](https://math.haozi.me/pow.html)
   * Math.expm1()[$e^x - 1$](https://math.haozi.me/pow.html)
 * 开方
-  * Math.sqrt() [开方运算](https://math.haozi.me/sqrt.html)
+  * Math.sqrt() [开平方运算](https://math.haozi.me/sqrt.html)
+  * Math.cbrt() [开立方运算](https://math.haozi.me/sqrt.html)
 * Math.abs() [绝对值](https://math.haozi.me/abs.html)
 * 对数
   * Math.log10() [以 10 为底的对数 $\log_{10}x$](https://math.haozi.me/log.html)
@@ -52,6 +53,10 @@
   * Math.ceil() [上取整](https://math.haozi.me/floor.html)
   * Math.round() [中文翻译成四舍五入，但其实不准确](https://math.haozi.me/round.html)
   * Math.trunc() [截尾取整](https://math.haozi.me/trunc.html)
+* 三角函数
+  * Math.sin() [三角函数](https://math.haozi.me/trigonometric.html)
+  * Math.cos() [三角函数](https://math.haozi.me/trigonometric.html)
+  * Math.tan() [三角函数](https://math.haozi.me/trigonometric.html)
 * Math.acos()
 * Math.acosh()
 * Math.asin()
@@ -59,9 +64,7 @@
 * Math.atan()
 * Math.atan2()
 * Math.atanh()
-* Math.cbrt()
 * Math.clz32()
-* Math.cos()
 * Math.cosh()
 * Math.fround()
 * Math.hypot()
@@ -69,10 +72,7 @@
 * Math.max()
 * Math.min()
 * Math.sign()
-* Math.sin()
 * Math.sinh()
-* Math.sqrt()
-* Math.tan()
 * Math.tanh()
 
 ## 线性代数
@@ -183,7 +183,7 @@
 
 // TODO
 
-## 牛顿精典力学
+## 牛顿经典力学
 
 // TODO
 
