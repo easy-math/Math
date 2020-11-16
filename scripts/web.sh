@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-repo='git@github.com:haozi/Math.git'
+repo='git@github.com:easy-math/Math.git'
 branch='gh-pages'
 tmp=`pwd`/.docs-tmp
 method=$1
