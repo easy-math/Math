@@ -14,20 +14,32 @@
   "license": "CC-BY-SA-4.0",
   "author": "耗子",
   "scripts": {
-    "docker": "open http://127.0.0.1:8520/lab && docker run -h 'Math' -it --rm -p 8520:8888 -v $PWD/docs:/notebooks -v $PWD/.cache/config:/home/ubuntu/.jupyter -v  $PWD/.cache/local:/home/ubuntu/.local haozhi/tensorflow zsh -c '. ~/.zshrc && jupyter lab --ip=0.0.0.0 --NotebookApp.token=\"\"'",
-    "new": "node scripts/new",
-    "web:build": "sh scripts/web.sh build",
-    "web:dev": "sh scripts/web.sh dev"
+    "build": "run-p build:*",
+    "build:web": "sh scripts/web.sh build",
+    "console": "echo 111",
+    "dev": "run-p dev:*",
+    "dev:jupyter": "open http://127.0.0.1:8520/lab && docker run -h 'Math' -it --rm -p 8520:8888 -v $PWD/docs:/notebooks -v $PWD/.cache/config:/home/ubuntu/.jupyter -v  $PWD/.cache/local:/home/ubuntu/.local haozhi/tensorflow zsh -c '. ~/.zshrc && jupyter lab --ip=0.0.0.0 --NotebookApp.token=\"\"'",
+    "dev:watch": "npm-watch",
+    "dev:web": "sh scripts/web.sh dev",
+    "new": "node scripts/new"
   },
   "devDependencies": {
-    "gitlog": "^4.0.3",
-    "inquirer": "^7.3.3",
-    "vuepress": "^1.7.1",
+    "gitlog": "^4.0.4",
+    "inquirer": "^8.2.0",
+    "npm-run-all": "^4.1.5",
+    "npm-watch": "^0.11.0",
+    "vuepress": "^1.8.2",
     "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-dehydrate": "^1.1.5",
     "vuepress-plugin-gitalk-maker": "^0.1.0",
     "vuepress-plugin-mathjax": "^1.2.8",
     "vuepress-plugin-nprogress": "^1.1.8",
     "vuepress-plugin-sitemap": "^2.3.1"
+  },
+  "engines": {
+    "node": ">= 14"
+  },
+  "watch": {
+    "console": "docs/**/*.ipynb"
   }
 }

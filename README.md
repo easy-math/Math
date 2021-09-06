@@ -1,5 +1,19 @@
 # Math
 
+## 开发
+```bash
+# 拉取镜像
+docker pull haozhi/tensorflow
+
+# 启动
+npm run dev
+
+# 创建一篇新文档
+npm run new
+
+```
+打开 <http://127.0.0.1:8520> 编写文章，打开 <http://127.0.0.1:8080> 预览网页
+
 ## 先挖个坑
 
 市面上的高数课程大都面向考研，应试和算术技巧偏多。
